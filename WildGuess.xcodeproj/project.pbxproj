@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F505C429192BB14C00B4EF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C428192BB14C00B4EF32 /* Foundation.framework */; };
+		F505C42B192BB14C00B4EF32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C42A192BB14C00B4EF32 /* CoreGraphics.framework */; };
+		F505C42D192BB14C00B4EF32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C42C192BB14C00B4EF32 /* UIKit.framework */; };
+		F505C433192BB14C00B4EF32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F505C431192BB14C00B4EF32 /* InfoPlist.strings */; };
+		F505C435192BB14C00B4EF32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F505C434192BB14C00B4EF32 /* main.m */; };
+		F505C439192BB14C00B4EF32 /* WildGuessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F505C438192BB14C00B4EF32 /* WildGuessAppDelegate.m */; };
+		F505C43C192BB14C00B4EF32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F505C43A192BB14C00B4EF32 /* Main.storyboard */; };
+		F505C43F192BB14C00B4EF32 /* WildGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F505C43E192BB14C00B4EF32 /* WildGuessViewController.m */; };
+		F505C441192BB14C00B4EF32 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F505C440192BB14C00B4EF32 /* Images.xcassets */; };
+		F505C448192BB14C00B4EF32 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C447192BB14C00B4EF32 /* XCTest.framework */; };
+		F505C449192BB14C00B4EF32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C428192BB14C00B4EF32 /* Foundation.framework */; };
+		F505C44A192BB14C00B4EF32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C42C192BB14C00B4EF32 /* UIKit.framework */; };
+		F505C452192BB14C00B4EF32 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F505C450192BB14C00B4EF32 /* InfoPlist.strings */; };
+		F505C454192BB14C00B4EF32 /* WildGuessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F505C453192BB14C00B4EF32 /* WildGuessTests.m */; };
+		F505C45E192BB15B00B4EF32 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C45D192BB15B00B4EF32 /* GoogleMaps.framework */; };
+		F505C460192BB16B00B4EF32 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F505C45F192BB16B00B4EF32 /* GoogleMaps.bundle */; };
+		F505C46D192BB1F000B4EF32 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C461192BB1F000B4EF32 /* AVFoundation.framework */; };
+		F505C46E192BB1F000B4EF32 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C462192BB1F000B4EF32 /* CoreData.framework */; };
+		F505C46F192BB1F000B4EF32 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C463192BB1F000B4EF32 /* CoreLocation.framework */; };
+		F505C470192BB1F000B4EF32 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C464192BB1F000B4EF32 /* CoreText.framework */; };
+		F505C471192BB1F000B4EF32 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C465192BB1F000B4EF32 /* GLKit.framework */; };
+		F505C472192BB1F000B4EF32 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C466192BB1F000B4EF32 /* ImageIO.framework */; };
+		F505C473192BB1F000B4EF32 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C467192BB1F000B4EF32 /* libc++.dylib */; };
+		F505C474192BB1F100B4EF32 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C468192BB1F000B4EF32 /* libicucore.dylib */; };
+		F505C475192BB1F100B4EF32 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C469192BB1F000B4EF32 /* libz.dylib */; };
+		F505C476192BB1F100B4EF32 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C46A192BB1F000B4EF32 /* OpenGLES.framework */; };
+		F505C477192BB1F100B4EF32 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C46B192BB1F000B4EF32 /* QuartzCore.framework */; };
+		F505C478192BB1F100B4EF32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C46C192BB1F000B4EF32 /* SystemConfiguration.framework */; };
+		F505C47A192BB20C00B4EF32 /* GoogleMaps.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = F505C479192BB20C00B4EF32 /* GoogleMaps.bundle */; };
+		F51BC86C192CAC9500AED649 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = F51BC86B192CAC9500AED649 /* FXBlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F505C44B192BB14C00B4EF32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F505C41D192BB14C00B4EF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F505C424192BB14C00B4EF32;
+			remoteInfo = WildGuess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F505C425192BB14C00B4EF32 /* WildGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WildGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505C428192BB14C00B4EF32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F505C42A192BB14C00B4EF32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F505C42C192BB14C00B4EF32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F505C430192BB14C00B4EF32 /* WildGuess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WildGuess-Info.plist"; sourceTree = "<group>"; };
+		F505C432192BB14C00B4EF32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F505C434192BB14C00B4EF32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F505C436192BB14C00B4EF32 /* WildGuess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WildGuess-Prefix.pch"; sourceTree = "<group>"; };
+		F505C437192BB14C00B4EF32 /* WildGuessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildGuessAppDelegate.h; sourceTree = "<group>"; };
+		F505C438192BB14C00B4EF32 /* WildGuessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildGuessAppDelegate.m; sourceTree = "<group>"; };
+		F505C43B192BB14C00B4EF32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F505C43D192BB14C00B4EF32 /* WildGuessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WildGuessViewController.h; sourceTree = "<group>"; };
+		F505C43E192BB14C00B4EF32 /* WildGuessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildGuessViewController.m; sourceTree = "<group>"; };
+		F505C440192BB14C00B4EF32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F505C446192BB14C00B4EF32 /* WildGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WildGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F505C447192BB14C00B4EF32 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F505C44F192BB14C00B4EF32 /* WildGuessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WildGuessTests-Info.plist"; sourceTree = "<group>"; };
+		F505C451192BB14C00B4EF32 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F505C453192BB14C00B4EF32 /* WildGuessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WildGuessTests.m; sourceTree = "<group>"; };
+		F505C45D192BB15B00B4EF32 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		F505C45F192BB16B00B4EF32 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = "../GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"; sourceTree = "<group>"; };
+		F505C461192BB1F000B4EF32 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F505C462192BB1F000B4EF32 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F505C463192BB1F000B4EF32 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F505C464192BB1F000B4EF32 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F505C465192BB1F000B4EF32 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F505C466192BB1F000B4EF32 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F505C467192BB1F000B4EF32 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F505C468192BB1F000B4EF32 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F505C469192BB1F000B4EF32 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F505C46A192BB1F000B4EF32 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F505C46B192BB1F000B4EF32 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F505C46C192BB1F000B4EF32 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F505C479192BB20C00B4EF32 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		F51BC86A192CAC9500AED649 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		F51BC86B192CAC9500AED649 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F505C422192BB14C00B4EF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C47A192BB20C00B4EF32 /* GoogleMaps.bundle in Frameworks */,
+				F505C45E192BB15B00B4EF32 /* GoogleMaps.framework in Frameworks */,
+				F505C46D192BB1F000B4EF32 /* AVFoundation.framework in Frameworks */,
+				F505C46E192BB1F000B4EF32 /* CoreData.framework in Frameworks */,
+				F505C46F192BB1F000B4EF32 /* CoreLocation.framework in Frameworks */,
+				F505C470192BB1F000B4EF32 /* CoreText.framework in Frameworks */,
+				F505C471192BB1F000B4EF32 /* GLKit.framework in Frameworks */,
+				F505C472192BB1F000B4EF32 /* ImageIO.framework in Frameworks */,
+				F505C473192BB1F000B4EF32 /* libc++.dylib in Frameworks */,
+				F505C474192BB1F100B4EF32 /* libicucore.dylib in Frameworks */,
+				F505C475192BB1F100B4EF32 /* libz.dylib in Frameworks */,
+				F505C476192BB1F100B4EF32 /* OpenGLES.framework in Frameworks */,
+				F505C477192BB1F100B4EF32 /* QuartzCore.framework in Frameworks */,
+				F505C478192BB1F100B4EF32 /* SystemConfiguration.framework in Frameworks */,
+				F505C42B192BB14C00B4EF32 /* CoreGraphics.framework in Frameworks */,
+				F505C42D192BB14C00B4EF32 /* UIKit.framework in Frameworks */,
+				F505C429192BB14C00B4EF32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505C443192BB14C00B4EF32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C448192BB14C00B4EF32 /* XCTest.framework in Frameworks */,
+				F505C44A192BB14C00B4EF32 /* UIKit.framework in Frameworks */,
+				F505C449192BB14C00B4EF32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F505C41C192BB14C00B4EF32 = {
+			isa = PBXGroup;
+			children = (
+				F505C42E192BB14C00B4EF32 /* WildGuess */,
+				F505C44D192BB14C00B4EF32 /* WildGuessTests */,
+				F505C427192BB14C00B4EF32 /* Frameworks */,
+				F505C426192BB14C00B4EF32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F505C426192BB14C00B4EF32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F505C425192BB14C00B4EF32 /* WildGuess.app */,
+				F505C446192BB14C00B4EF32 /* WildGuessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F505C427192BB14C00B4EF32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F505C479192BB20C00B4EF32 /* GoogleMaps.bundle */,
+				F505C461192BB1F000B4EF32 /* AVFoundation.framework */,
+				F505C462192BB1F000B4EF32 /* CoreData.framework */,
+				F505C463192BB1F000B4EF32 /* CoreLocation.framework */,
+				F505C464192BB1F000B4EF32 /* CoreText.framework */,
+				F505C465192BB1F000B4EF32 /* GLKit.framework */,
+				F505C466192BB1F000B4EF32 /* ImageIO.framework */,
+				F505C467192BB1F000B4EF32 /* libc++.dylib */,
+				F505C468192BB1F000B4EF32 /* libicucore.dylib */,
+				F505C469192BB1F000B4EF32 /* libz.dylib */,
+				F505C46A192BB1F000B4EF32 /* OpenGLES.framework */,
+				F505C46B192BB1F000B4EF32 /* QuartzCore.framework */,
+				F505C46C192BB1F000B4EF32 /* SystemConfiguration.framework */,
+				F505C45F192BB16B00B4EF32 /* GoogleMaps.bundle */,
+				F505C45D192BB15B00B4EF32 /* GoogleMaps.framework */,
+				F505C428192BB14C00B4EF32 /* Foundation.framework */,
+				F505C42A192BB14C00B4EF32 /* CoreGraphics.framework */,
+				F505C42C192BB14C00B4EF32 /* UIKit.framework */,
+				F505C447192BB14C00B4EF32 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F505C42E192BB14C00B4EF32 /* WildGuess */ = {
+			isa = PBXGroup;
+			children = (
+				F505C43A192BB14C00B4EF32 /* Main.storyboard */,
+				F505C43D192BB14C00B4EF32 /* WildGuessViewController.h */,
+				F505C43E192BB14C00B4EF32 /* WildGuessViewController.m */,
+				F51BC869192CAC9500AED649 /* FXBlurView */,
+				F505C440192BB14C00B4EF32 /* Images.xcassets */,
+				F505C42F192BB14C00B4EF32 /* Supporting Files */,
+			);
+			path = WildGuess;
+			sourceTree = "<group>";
+		};
+		F505C42F192BB14C00B4EF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F505C437192BB14C00B4EF32 /* WildGuessAppDelegate.h */,
+				F505C438192BB14C00B4EF32 /* WildGuessAppDelegate.m */,
+				F505C430192BB14C00B4EF32 /* WildGuess-Info.plist */,
+				F505C431192BB14C00B4EF32 /* InfoPlist.strings */,
+				F505C434192BB14C00B4EF32 /* main.m */,
+				F505C436192BB14C00B4EF32 /* WildGuess-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F505C44D192BB14C00B4EF32 /* WildGuessTests */ = {
+			isa = PBXGroup;
+			children = (
+				F505C453192BB14C00B4EF32 /* WildGuessTests.m */,
+				F505C44E192BB14C00B4EF32 /* Supporting Files */,
+			);
+			path = WildGuessTests;
+			sourceTree = "<group>";
+		};
+		F505C44E192BB14C00B4EF32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F505C44F192BB14C00B4EF32 /* WildGuessTests-Info.plist */,
+				F505C450192BB14C00B4EF32 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F51BC869192CAC9500AED649 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				F51BC86A192CAC9500AED649 /* FXBlurView.h */,
+				F51BC86B192CAC9500AED649 /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F505C424192BB14C00B4EF32 /* WildGuess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505C457192BB14C00B4EF32 /* Build configuration list for PBXNativeTarget "WildGuess" */;
+			buildPhases = (
+				F505C421192BB14C00B4EF32 /* Sources */,
+				F505C422192BB14C00B4EF32 /* Frameworks */,
+				F505C423192BB14C00B4EF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WildGuess;
+			productName = WildGuess;
+			productReference = F505C425192BB14C00B4EF32 /* WildGuess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F505C445192BB14C00B4EF32 /* WildGuessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F505C45A192BB14C00B4EF32 /* Build configuration list for PBXNativeTarget "WildGuessTests" */;
+			buildPhases = (
+				F505C442192BB14C00B4EF32 /* Sources */,
+				F505C443192BB14C00B4EF32 /* Frameworks */,
+				F505C444192BB14C00B4EF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F505C44C192BB14C00B4EF32 /* PBXTargetDependency */,
+			);
+			name = WildGuessTests;
+			productName = WildGuessTests;
+			productReference = F505C446192BB14C00B4EF32 /* WildGuessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F505C41D192BB14C00B4EF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WildGuess;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = auszone;
+				TargetAttributes = {
+					F505C445192BB14C00B4EF32 = {
+						TestTargetID = F505C424192BB14C00B4EF32;
+					};
+				};
+			};
+			buildConfigurationList = F505C420192BB14C00B4EF32 /* Build configuration list for PBXProject "WildGuess" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F505C41C192BB14C00B4EF32;
+			productRefGroup = F505C426192BB14C00B4EF32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F505C424192BB14C00B4EF32 /* WildGuess */,
+				F505C445192BB14C00B4EF32 /* WildGuessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F505C423192BB14C00B4EF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C441192BB14C00B4EF32 /* Images.xcassets in Resources */,
+				F505C433192BB14C00B4EF32 /* InfoPlist.strings in Resources */,
+				F505C43C192BB14C00B4EF32 /* Main.storyboard in Resources */,
+				F505C460192BB16B00B4EF32 /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505C444192BB14C00B4EF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C452192BB14C00B4EF32 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F505C421192BB14C00B4EF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C439192BB14C00B4EF32 /* WildGuessAppDelegate.m in Sources */,
+				F51BC86C192CAC9500AED649 /* FXBlurView.m in Sources */,
+				F505C43F192BB14C00B4EF32 /* WildGuessViewController.m in Sources */,
+				F505C435192BB14C00B4EF32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F505C442192BB14C00B4EF32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505C454192BB14C00B4EF32 /* WildGuessTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F505C44C192BB14C00B4EF32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F505C424192BB14C00B4EF32 /* WildGuess */;
+			targetProxy = F505C44B192BB14C00B4EF32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F505C431192BB14C00B4EF32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505C432192BB14C00B4EF32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F505C43A192BB14C00B4EF32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505C43B192BB14C00B4EF32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F505C450192BB14C00B4EF32 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F505C451192BB14C00B4EF32 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F505C455192BB14C00B4EF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F505C456192BB14C00B4EF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F505C458192BB14C00B4EF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WildGuess/WildGuess-Prefix.pch";
+				INFOPLIST_FILE = "WildGuess/WildGuess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F505C459192BB14C00B4EF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WildGuess/WildGuess-Prefix.pch";
+				INFOPLIST_FILE = "WildGuess/WildGuess-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F505C45B192BB14C00B4EF32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WildGuess.app/WildGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WildGuess/WildGuess-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WildGuessTests/WildGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F505C45C192BB14C00B4EF32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WildGuess.app/WildGuess";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WildGuess/WildGuess-Prefix.pch";
+				INFOPLIST_FILE = "WildGuessTests/WildGuessTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F505C420192BB14C00B4EF32 /* Build configuration list for PBXProject "WildGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505C455192BB14C00B4EF32 /* Debug */,
+				F505C456192BB14C00B4EF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505C457192BB14C00B4EF32 /* Build configuration list for PBXNativeTarget "WildGuess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505C458192BB14C00B4EF32 /* Debug */,
+				F505C459192BB14C00B4EF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F505C45A192BB14C00B4EF32 /* Build configuration list for PBXNativeTarget "WildGuessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F505C45B192BB14C00B4EF32 /* Debug */,
+				F505C45C192BB14C00B4EF32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F505C41D192BB14C00B4EF32 /* Project object */;
+}
