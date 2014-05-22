@@ -4,7 +4,8 @@
 //
 //  Created by HCKuo on 5/20/14.
 //  Copyright (c) 2014 auszone. All rights reserved.
-//
+// comment
+
 #import "WildGuessViewController.h"
 #import "FXBlurView.h"
 #define panoRadius 200 //KM
